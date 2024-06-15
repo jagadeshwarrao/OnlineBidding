@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>O A M S</title>
+    
+        <link rel="stylesheet" href="../static/css/nav2.css">
+        <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    </head>
+    <body>
+        <p class="hhhh">
+           Online Auction Management System
+            <span>
+                <img src="https://img.freepik.com/free-vector/auction-house-conceptual-background_1284-29710.jpg?w=1380&t=st=1683810951~exp=1683811551~hmac=409b50233be04e6a7675803686607ec05b9ccf4fde0183c92ad435fe391e3ddf" alt="logo" style="width:15%; height:15%;">
+            </span>
+           
+           
+          </p>
+        <div class="khali">    
+        <div class="wrapper">
+            <div class="ffuk">
+                <ul>
+                    <li><a href="http://127.0.0.1:8000/home">Home</a></li>
+                    <li><a href="http://127.0.0.1:8000/homepage">Main Page</a></li>
+                    <li><a href="items/additem">Add Item</a></li>
+                    <li><a href="future">Future Auction</a></li>
+                    <li><a href="log">History</a></li>
+                     <li><a href="logout">Logout</a></li>
+                    <!-- <li><a href="aboutus">About us</a></li> -->
+                    <!-- <li><a href="#"></a></li> -->
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            {% block content %}
+            {% endblock %}
+
+            <h3 style="color:blue"><b>Disclaimer for Adding Items, Future Auctions, and Auction History</b></h3> 
+            <justify>
+                The following disclaimer applies to the functionality and features related to adding items, future auctions, and the auction history within the Auction Online Management System. Please read this disclaimer carefully before engaging with these aspects of the platform.
+                
+
+
+                <h5><b style="color:blue">Adding Items:</b></h5>
+
+                The Auction Online Management System allows users to add items for potential auction. By utilizing this feature, users acknowledge and agree to the following:
+
+                a. Accuracy of Information: Users are responsible for ensuring the accuracy and completeness of the item details provided during the process of adding an item. The Auction Online Management System does not verify the authenticity or quality of the items added by users.
+
+                b. Legal Ownership: Users affirm that they are the legal owners or authorized representatives of the items they add to the system. Any violation of intellectual property rights, fraudulent claims, or misrepresentation of ownership may result in legal consequences.
+
+                c. Prohibited Items: Users must comply with all applicable laws, regulations, and platform guidelines when adding items. The Auction Online Management System reserves the right to remove or refuse any item that violates these terms, including but not limited to items that are illegal, counterfeit, or infringe upon intellectual property rights.
+                
+                
+                
+                <h5><b style="color:blue">Future Auctions:</b></h5>
+
+                The Auction Online Management System may provide information about upcoming auctions. Please note the following:
+
+                a. Schedule Changes: The timing, duration, or cancellation of future auctions may occur at the discretion of the auction organizers. The Auction Online Management System cannot be held responsible for any changes made after the information has been provided.
+                
+                b. Availability and Bidding: The inclusion of an item in the list of upcoming auctions does not guarantee its availability for bidding. The Auction Online Management System does not guarantee the availability of specific items, as it depends on various factors, including the actions of the item owner and the auction organizers.
+                
+                <h5><b style="color:blue">Auction History:</b></h5>
+
+                The Auction Online Management System maintains a record of past auctions. Please consider the following:
+
+                a. Historical Accuracy: While efforts are made to ensure the accuracy of auction history information, the Auction Online Management System cannot guarantee the completeness or absolute accuracy of the records. Discrepancies or errors may occur due to data input or technical issues.
+
+                b. Verification of Auction Results: It is the responsibility of bidders and participants to verify the auction results independently. The Auction Online Management System is not liable for any discrepancies between the reported auction outcomes and the actual results.
+
+                By using the Auction Online Management System and engaging with the features related to adding items, future auctions, and auction history, users acknowledge and accept the terms and conditions outlined in this disclaimer. It is recommended to review the platform's terms of service and privacy policy for additional information regarding the usage of the system.
+
+                Please note that this disclaimer is subject to change without prior notice. Users are advised to regularly check for any updates or modifications to this disclaimer.
+            </justify>
+
+        </div>
+    </body>
+</html>

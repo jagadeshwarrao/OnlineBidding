@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <body>
+   {% extends 'base5.html' %}
+{% block content %} 
+<div class="container">
+  
+{% for i in items%} 
+
+<h1>About Us</h1>
+<ul>
+    <li>
+        {% for name in names %}
+            {{ name }}
+        {% endfor %}
+    </li>
+</ul>
+  </div>
+  <!-- <footer>
+    <p>&copy; 2023 Online Auction Management System. All rights reserved.</p>
+  </footer> -->
+   {% endfor%}
+
+
+
+
+
+
+{% endblock %} 
+
+</body>
+
+
+</html>
